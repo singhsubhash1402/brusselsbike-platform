@@ -218,3 +218,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Databricks
+.databrickscfg
+.databricks/
+.vscode-databricks/
+
+# Environment & secrets
+.env
+.env.local
+secrets/
+*.key
+*.pem
+
+# Data (don't commit large datasets)
+data/
+*.csv
+*.parquet
+*.zip
+!data/.gitkeep
+
+# IDE
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
